@@ -1,0 +1,7 @@
+1. installed pnpm (package manager)
+2. Create app file: npx create-next-app@latest nextjs-dashboard --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example" --use-pnpm
+3. pnpm approve-builds --all
+4. pnpm i
+5. pnpm dev
+6. 
+ 
