@@ -7,11 +7,11 @@ import { use } from 'react';
 
 export default function Search({ placeholder }: { placeholder: string }) {
   const searchParams = useSearchParams();
-
+  const pathname = usePathname();
+  const { replace } = useRouter();
   function handleSearch(term: string) {
     const params = new URLSearchParams(searchParams);
-    const pathname = usePathname();
-    const { replace } = useRouter();
+
     if (term) {
       params.set('query', term);
 
