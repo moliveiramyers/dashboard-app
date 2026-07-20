@@ -3,5 +3,6 @@
 3. pnpm approve-builds --all
 4. pnpm i
 5. pnpm dev
-6. 
+6. Auth: pnpm i next-auth@beta
+7. Secret key generation: npx auth secret
  
